@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    width: 95%;
+    margin: auto;
+    border-radius: .3em;
+}
+
+.text {
+    margin: 1em 0;
+    padding: 0 1.5em;
+}
+
+.text h1 {
+    margin: 1.5rem 0;
+}
+
+.text p {
+    color: var(--bs-muted);
+}
+
+@media (max-width: 1030px) {
+    .video {
+        width: 100%;
+    }
+
+    .text h1 {
+        margin: 1rem 0;
+    }
+
+    .text {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 1030px) {
+    .text h1 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    .text {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}

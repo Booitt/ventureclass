@@ -1,0 +1,87 @@
+:root {
+  box-sizing: border-box;
+  --bs-background: #2D46B9;
+  --bs-background-secondary: #E5E5E5;
+  --bs-primary: #F9A528;
+  --bs-primary-opacity: #2D46B922;
+  --bs-secondary: white;
+  --bs-muted: #222222A3;
+  --bs-muted-secondary: #000000A3;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+*+* {
+  margin-top: .5em;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--bs-background);
+}
+
+
+a, a:active, a:focus {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+iframe {
+  aspect-ratio: 1.8;
+}
+
+/* NProgress */
+#nprogress {
+  position: absolute;
+  top: 0;
+}
+
+#nprogress .spinner {
+  display: none !important;
+}
+
+#nprogress .bar {
+  background: var(--bs-primary) !important;
+}
+
+#nprogress .peg {
+  position: absolute;
+  box-shadow: 0 0 10px var(--bs-primary), 0 0 5px var(--bs-primary) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bs-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bs-primary) !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bs-primary) !important;
+}
+
+@media (max-width: 650px) {
+  :root {
+    font-size: .9em;
+  }
+}
+
+@media (max-width: 380px) {
+  :root {
+    font-size: .8em;
+  }
+}
