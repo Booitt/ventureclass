@@ -33,8 +33,8 @@ Para cadastrar um novo vídeo na API, envie um JSON via **POST** com a seguinte 
 	"duracao": "25:08"
 }
 ```
-- O link deve estar no formato **embed** (como no exemplo acima), que pode ser obtido clicando em *Compartilhar* em qualquer vídeo do YouTube. Ou substitua o ID após *embed/* pelo ID que pode ser obtino em um link padrão do YouTube: https://www.youtube.com/watch?v=**ORGYmVvUmEY** -> https://www.youtube.com/embed/**ORGYmVvUmEY**;
-- A thumbnail pode ser obtida [aqui](http://www.get-youtube-thumbnail.com/), com o link do vídeo. Ou apenas substitua o ID no link da thumbnail com o link do vídeo em questão: http://i3.ytimg.com/vi/**ORGYmVvUmEY**/maxresdefault.jpg.
+- O link deve estar no formato **embed** (como no exemplo acima), que pode ser obtido clicando em *Compartilhar* em qualquer vídeo do YouTube. Ou substitua o ID após *embed/* pelo ID que pode ser obtino em um link padrão do YouTube: https://www.youtube.com/watch?v= **ORGYmVvUmEY** -> https://www.youtube.com/embed/ **ORGYmVvUmEY**;
+- A thumbnail pode ser obtida [aqui](http://www.get-youtube-thumbnail.com/), com o link do vídeo. Ou apenas substitua o ID no link da thumbnail com o link do vídeo em questão: http://i3.ytimg.com/vi/ **ORGYmVvUmEY** /maxresdefault.jpg.
 
 ### **/videos GET**
 
