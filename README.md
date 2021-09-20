@@ -2,7 +2,7 @@
 
 ## Demo
 - Você pode ver o website [aqui](https://venturesclass-vercel.vercel.app/)
-- Você pode ver a API [aqui](https://tranquil-dawn-90299.herokuapp.com/)
+- Você pode ver a API [aqui](https://tranquil-dawn-90299.herokuapp.com/videos)
 
 ## Teste-o localmente
 
